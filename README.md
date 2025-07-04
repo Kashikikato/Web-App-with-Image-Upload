@@ -28,20 +28,23 @@ A simple Flask web application that allows authenticated users to upload, view, 
 	cd Web-App-with-Image-Upload
 
 2. Create and activate a virtual environment (optional but recommended):
-	python3 -m venv venv
-	source venv/bin/activate  # Linux/macOS
-	venv\Scripts\activate     # Windows
+	
+ 		python3 -m venv venv
 
-3. Install dependencies:
+ 		source venv/bin/activate  # Linux/macOS
+
+ 		venv\Scripts\activate     # Windows
+
+4. Install dependencies:
 	pip install flask
 
-4. Create the uploads folder:
+5. Create the uploads folder:
 	mkdir uploads
 
-5. Run the app:
+6. Run the app:
 	flask run
 
-6. Open you browser at http://127.0.0.1:5000
+7. Open you browser at http://127.0.0.1:5000
 
 ## Configuration
 
